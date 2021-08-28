@@ -11,6 +11,12 @@
 		645D348626D55AAB00336947 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D348526D55AAB00336947 /* ContentView.swift */; };
 		645D348826D55AAE00336947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645D348726D55AAE00336947 /* Assets.xcassets */; };
 		645D348B26D55AAE00336947 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645D348A26D55AAE00336947 /* Preview Assets.xcassets */; };
+		6480362026DA9B840017929A /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480361F26DA9B840017929A /* GameView.swift */; };
+		6480362326DA9B990017929A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480362226DA9B990017929A /* HomeView.swift */; };
+		6480362826DA9D7B0017929A /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6480362626DA9D7A0017929A /* Poppins-SemiBoldItalic.ttf */; };
+		6480362926DA9D7B0017929A /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6480362726DA9D7B0017929A /* Poppins-SemiBold.ttf */; };
+		6480362E26DA9D8E0017929A /* start-button-dark-mode.png in Resources */ = {isa = PBXBuildFile; fileRef = 6480362C26DA9D8E0017929A /* start-button-dark-mode.png */; };
+		6480362F26DA9D8E0017929A /* start-button-white-mode.png in Resources */ = {isa = PBXBuildFile; fileRef = 6480362D26DA9D8E0017929A /* start-button-white-mode.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		645D348726D55AAE00336947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		645D348A26D55AAE00336947 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		645D348C26D55AAE00336947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6480361F26DA9B840017929A /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		6480362226DA9B990017929A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6480362626DA9D7A0017929A /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		6480362726DA9D7B0017929A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		6480362C26DA9D8E0017929A /* start-button-dark-mode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start-button-dark-mode.png"; sourceTree = "<group>"; };
+		6480362D26DA9D8E0017929A /* start-button-white-mode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start-button-white-mode.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +64,15 @@
 		645D348226D55AAB00336947 /* tic-tac-toe */ = {
 			isa = PBXGroup;
 			children = (
+				6480362B26DA9D8E0017929A /* Image */,
+				6480362526DA9D7A0017929A /* font */,
 				645D348326D55AAB00336947 /* tic_tac_toeApp.swift */,
 				645D348526D55AAB00336947 /* ContentView.swift */,
 				645D348726D55AAE00336947 /* Assets.xcassets */,
 				645D348C26D55AAE00336947 /* Info.plist */,
 				645D348926D55AAE00336947 /* Preview Content */,
+				6480361F26DA9B840017929A /* GameView.swift */,
+				6480362226DA9B990017929A /* HomeView.swift */,
 			);
 			path = "tic-tac-toe";
 			sourceTree = "<group>";
@@ -67,6 +83,24 @@
 				645D348A26D55AAE00336947 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6480362526DA9D7A0017929A /* font */ = {
+			isa = PBXGroup;
+			children = (
+				6480362626DA9D7A0017929A /* Poppins-SemiBoldItalic.ttf */,
+				6480362726DA9D7B0017929A /* Poppins-SemiBold.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		6480362B26DA9D8E0017929A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				6480362C26DA9D8E0017929A /* start-button-dark-mode.png */,
+				6480362D26DA9D8E0017929A /* start-button-white-mode.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +160,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6480362E26DA9D8E0017929A /* start-button-dark-mode.png in Resources */,
 				645D348B26D55AAE00336947 /* Preview Assets.xcassets in Resources */,
+				6480362926DA9D7B0017929A /* Poppins-SemiBold.ttf in Resources */,
+				6480362F26DA9D8E0017929A /* start-button-white-mode.png in Resources */,
 				645D348826D55AAE00336947 /* Assets.xcassets in Resources */,
+				6480362826DA9D7B0017929A /* Poppins-SemiBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +177,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				645D348626D55AAB00336947 /* ContentView.swift in Sources */,
+				6480362326DA9B990017929A /* HomeView.swift in Sources */,
+				6480362026DA9B840017929A /* GameView.swift in Sources */,
 				645D348426D55AAB00336947 /* tic_tac_toeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
